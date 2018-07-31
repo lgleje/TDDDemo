@@ -4,14 +4,13 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.verify;
 
 public class SignPresenterTest {
 
     @Mock
-    MvpContract.MvpView mvpView;
-    SignPresenter signPresenter;
+    private MvpContract.MvpView mvpView;
+    private SignPresenter signPresenter;
 
     @Before
     public void setUp() throws Exception {
